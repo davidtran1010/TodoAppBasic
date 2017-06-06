@@ -22,6 +22,7 @@ public class EditItemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editlistview);
 
+        this.setTitle("Edit Item Data");
         editText = (EditText) findViewById(R.id.editText);
         saveBtn = (Button) findViewById(R.id.saveBtn);
 
