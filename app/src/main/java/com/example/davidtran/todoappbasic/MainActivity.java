@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                 items.remove(position);
                 listView.invalidateViews();
+                writeItems();
                 return true;
             }
         });
